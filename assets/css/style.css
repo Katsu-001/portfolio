@@ -4,10 +4,17 @@ body {
   }
 
   header {
+    font-size: x-large;
     padding: 35px;
     text-align: center;
     background: #16149c;
     color: #fff;
+  }
+
+  header p {
+    margin: 50px;
+    font-size: smaller;
+    color:aqua
   }
 
   nav {
@@ -26,14 +33,19 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   aside {
     flex: 1;
     background-color: #636794;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
   }
   
+  aside image {
+    max-width: 150px;
+  }
+
+
   footer {
     padding: 20px;
     text-align: center;
